@@ -51,7 +51,7 @@ body {
 
 #header-image {
   height: 276px;
-  background: url("/images/header.jpg") center no-repeat;
+  background: url("images/header.jpg") center no-repeat;
 }
 
 #events {
