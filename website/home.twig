@@ -1,0 +1,12 @@
+{% extends "default.twig" %}
+
+{% block header %}
+  {% include "locale.twig" %}
+{% endblock %}
+
+{% block content %}
+  {% include "events.twig" %}
+  {% include "navbar.twig" %}
+  {% include "archivebar.twig" %}
+  {{ content|raw }}
+{% endblock %}

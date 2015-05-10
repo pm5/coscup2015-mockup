@@ -1,0 +1,6 @@
+baseUrl: http://localhost:8080
+blogUrl: http://blog.coscup.org
+title: COSCUP 2015
+scripts:
+  before:
+    - echo "hello"
