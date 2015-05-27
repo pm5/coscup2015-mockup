@@ -7,14 +7,16 @@
   </head>
   <body>
     {% block intro %}
-    <header id="header">
-      <div class="wrap">
-        <nav>
-          <div id="logo"><a href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a></div>
-          {% block header %}{% endblock %}
-        </nav>
-      </div>
-    </header>
+    <div id="header">
+      <header>
+        <div class="wrap">
+          <nav>
+            <div id="logo"><a href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a></div>
+            {% block header %}{% endblock %}
+          </nav>
+        </div>
+      </header>
+    </div>
     {% endblock %}
     <div id="content">
       <div class="wrap">
