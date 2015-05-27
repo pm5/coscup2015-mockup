@@ -16,9 +16,19 @@ body {
   justify-content: center;
 }
 
+#header {
+  background: #484848;
+  color: #dbdbdb;
+  align-items: center;
+}
+
+#header a {
+  color: #dbdbdb;
+  text-decoration: none;
+}
+
 .wrap {
   max-width: 1020px;
-  border: 1px #ccc solid;
   flex: 1;
 }
 
@@ -78,4 +88,5 @@ ul.menu {
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
