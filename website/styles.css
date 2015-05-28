@@ -71,6 +71,16 @@ body {
   text-decoration: none;
 }
 
+#header-image:after {
+  display: block;
+  content: ".";
+  background: #484848;
+  height: 2px;
+  width: 100%;
+  position: relative;
+  top: 267px;
+}
+
 /* events */
 
 #events {
