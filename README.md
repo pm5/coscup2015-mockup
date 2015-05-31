@@ -1,10 +1,6 @@
 ---
 layout: home
 ---
-<a name="booking"></a>
-
-## 報名
-
 <a name="conference"></a>
 
 ## 大會
