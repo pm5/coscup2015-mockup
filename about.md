@@ -11,6 +11,8 @@ Open source 這個在 1998 年出現的名詞，大家早已耳熟能詳。這�
 
 Coders、users 和 promoters 是讓 open source 軟體發光發熱的三大支柱，這個研討會就是專為這三種人舉辦的：你可以是 A 軟體的 coder、B 軟體的 promoter、C 軟體的 user，不論你是已經踏入 open source 領域，還是一直站在門口不知如何入門，歡迎你來參加 COSCUP — Conference for Open Source Coders, Users and Promoters!
 
-COSCUP 研討會已堂堂邁入第九年，八年來不但由各地社群共同舉辦，在眾多同好的參與之下，逐漸成長茁壯。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的開源人年會。
+COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同舉辦，在眾多同好的參與之下，逐漸成長茁壯。無論你是寫 open source 軟體的開發者、熱衷 open source 軟體的推廣者、熟悉 open source 軟體的使用者或是想了解 open source 軟體的新手，都歡迎你來參加一年一度全台最大的開源人年會。
 
-## 2014 籌備團隊
+## 2015 籌備團隊
+
+（準備中）
