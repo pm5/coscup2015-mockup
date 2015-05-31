@@ -24,6 +24,9 @@
         {% block content %}{% endblock %}
       </div>
     </div>
+    {% block asides %}
+      {% include "sponsors.twig" %}
+    {% endblock %}
     <footer id="footer">
       <div class="wrap">
         {% block footer %}{% endblock %}

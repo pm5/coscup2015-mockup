@@ -13,11 +13,11 @@ layout: page
 
 ## 白銀級贊助
 
-（準備中）
+[![祐生研究基金會](images/sponsor-archilife.jpg)](http://www.archilife.org/)
 
 ## 青銅級贊助
 
-（準備中）
+[![哇寶國際資訊](images/sponsor-wabow.jpg)](http://www.wabow.com/)
 
 ## 協辦單位
 
