@@ -1,6 +1,14 @@
 
 /* layout */
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -139,11 +147,11 @@ ul.block-menu {
   line-height: 1.5em;
   padding: 0 0.6em;
   color: #fff;
+  border-bottom: 3px solid transparent;
 }
 
 .block-menu li a:hover {
-  background-color: #424242;
-  color: #00ff8b;
+  border-bottom: 3px solid #fff;
 }
 
 /* menu */
@@ -224,10 +232,17 @@ ul.menu {
   line-height: 1.8em;
 }
 
+#content .wrap {
+  max-width: 600px;
+}
+
+#content h1 {
+  line-height: 2.4em;
+}
+
 #content h2 {
   text-align: center;
   font-size: 32px;
-  color: #424242;
 }
 
 #content a {
