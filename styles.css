@@ -22,7 +22,6 @@ a {
 
 #header {
   flex-direction: column;
-  color: #dbdbdb;
   align-items: center;
 }
 
@@ -101,7 +100,8 @@ a {
 .block {
   display: flex;
   flex-flow: row wrap;
-  padding: 4em 10em;
+  padding: 2.3em 4em;
+  width: 50%;
 }
 
 .block:hover {
@@ -111,14 +111,6 @@ a {
 .block:hover .block-title,
 .block:hover .block-content {
   color: #000;
-}
-
-.block a {
-  color: #fff;
-}
-
-.block a:hover {
-  color: #00ff8b;
 }
 
 .block-title {
@@ -147,14 +139,24 @@ ul.block-menu {
 
 .block-menu li a {
   display: inline-block;
+  font-size: 16px;
+  line-height: 1.5em;
   padding: 0 0.6em;
+  color: #fff;
 }
 
 .block-menu li a:hover {
   background-color: #484848;
+  color: #00ff8b;
 }
 
-/* items */
+/* menu */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 ul.menu {
   padding: 0;
@@ -172,12 +174,36 @@ ul.menu {
   line-height: 3.3em;
 }
 
-.menu li a:hover {
-  background-color: #000;
+/* main menu */
+
+.main.menu li a {
+  color: #484848;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main.menu li a:hover {
+  background-color: #484848;
+  color: #00ff8b;
 }
+
+/* locale menu */
+
+.locale.menu li a {
+  color: #dbdbdb;
+}
+
+.locale.menu li a:hover {
+  background-color: #000;
+  color: #00ff8b;
+}
+
+/* archive menu */
+
+.archive.menu li a {
+  color: #484848;
+}
+
+.archive.menu li a:hover {
+}
+
