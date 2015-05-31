@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 #header,
 #content,
 #features,
@@ -68,7 +72,6 @@ body {
 
 #header a {
   color: #dbdbdb;
-  text-decoration: none;
 }
 
 #header-image:after {
@@ -93,6 +96,25 @@ body {
   display: flex;
 }
 
+/* block */
+
+.block {
+  padding: 4em 10em;
+}
+
+.block-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.block-title a {
+  color: #484848;
+}
+
+.block-title a:hover {
+  color: #3b9838;
+}
+
 /* items */
 
 ul.menu {
@@ -113,10 +135,6 @@ ul.menu {
 
 .menu li a:hover {
   background-color: #000;
-}
-
-.block {
-  padding: 4em 10em;
 }
 
 nav {
