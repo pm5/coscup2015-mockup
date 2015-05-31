@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 #header,
 #content,
 #features,
@@ -68,7 +72,6 @@ body {
 
 #header a {
   color: #dbdbdb;
-  text-decoration: none;
 }
 
 #header-image:after {
@@ -93,6 +96,64 @@ body {
   display: flex;
 }
 
+/* block */
+
+.block {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 4em 10em;
+}
+
+.block:hover {
+  background: #9e9e9e;
+}
+
+.block:hover .block-title,
+.block:hover .block-content {
+  color: #000;
+}
+
+.block a {
+  color: #fff;
+}
+
+.block a:hover {
+  color: #00ff8b;
+}
+
+.block-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: .5em;
+  color: #484848;
+}
+
+.block-content {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #484848;
+}
+
+ul.block-menu {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.block-menu li {
+  list-style: none;
+  display: inline;
+}
+
+.block-menu li a {
+  display: inline-block;
+  padding: 0 0.6em;
+}
+
+.block-menu li a:hover {
+  background-color: #484848;
+}
+
 /* items */
 
 ul.menu {
@@ -113,10 +174,6 @@ ul.menu {
 
 .menu li a:hover {
   background-color: #000;
-}
-
-.block {
-  padding: 4em 10em;
 }
 
 nav {
