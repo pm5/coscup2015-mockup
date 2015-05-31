@@ -1,7 +1,10 @@
 
 /* layout */
 
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
 html {
+  font-family: 'Noto Sans', sans-serif;
   box-sizing: border-box;
 }
 
@@ -36,6 +39,7 @@ a {
 #header header {
   width: 100%;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   background: #424242;
 }
