@@ -217,6 +217,7 @@ ul.menu {
 
 .archive.menu li a {
   color: #424242;
+  border-bottom: 5px transparent;
 }
 
 .archive.menu li a:hover {
