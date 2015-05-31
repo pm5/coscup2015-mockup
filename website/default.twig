@@ -23,10 +23,12 @@
       <div class="wrap">
         {% block content %}{% endblock %}
       </div>
+      {% block asides %}
+        <aside class="left">
+        </aside>
+        {% include "sponsors.twig" %}
+      {% endblock %}
     </div>
-    {% block asides %}
-      {% include "sponsors.twig" %}
-    {% endblock %}
     <footer id="footer">
       <div class="wrap">
         {% block footer %}{% endblock %}

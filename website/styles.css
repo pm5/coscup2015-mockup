@@ -230,10 +230,12 @@ ul.menu {
   color: #424242;
   font-size: 18px;
   line-height: 1.8em;
+  justify-content: space-around;
 }
 
 #content .wrap {
   max-width: 600px;
+  order: 2;
 }
 
 #content h1 {
@@ -251,4 +253,28 @@ ul.menu {
 
 #content a:hover {
   border-bottom: 1px dashed #3b9838;
+}
+
+/* asides */
+
+aside.left, aside.right {
+  width: 150px;
+}
+
+aside.left {
+  order: 1;
+}
+
+aside.right {
+  order: 3;
+}
+
+.aside.title {
+  margin-top: 0.7em;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.aside.banner {
 }

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: noasides
 ---
 # 大會贊助商
 
@@ -13,11 +13,11 @@ layout: page
 
 ## 白銀級贊助
 
-[![祐生研究基金會](images/sponsor-archilife.jpg)](http://www.archilife.org/)
+[![](images/sponsor-archilife.jpg)](http://www.archilife.org/)
 
 ## 青銅級贊助
 
-[![哇寶國際資訊](images/sponsor-wabow.jpg)](http://www.wabow.com/)
+[![](images/sponsor-wabow.jpg)](http://www.wabow.com/)
 
 ## 協辦單位
 
