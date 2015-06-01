@@ -22,7 +22,7 @@ a {
 }
 
 .wrap {
-  max-width: 1020px;
+  max-width: 960px;
   flex: 1;
 }
 
@@ -71,14 +71,6 @@ a {
   height: 33px;
 }
 
-/* features */
-
-#features {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 /* footer */
 
 #footer {
@@ -112,36 +104,36 @@ a {
   background: #ababab;
 }
 
-.block:hover .block-title,
-.block:hover .block-content {
+.block:hover .title,
+.block:hover .content {
   color: #000;
 }
 
-.block-title {
+.block .title {
   font-size: 24px;
   font-weight: 800;
   padding-bottom: .5em;
   color: #424242;
 }
 
-.block-content {
+.block .content {
   font-size: 16px;
   line-height: 1.6em;
   color: #424242;
 }
 
-ul.block-menu {
+.block ul.menu {
   display: inline-block;
   padding: 0;
   margin: 0;
 }
 
-.block-menu li {
+.block .menu li {
   list-style: none;
   display: inline;
 }
 
-.block-menu li a {
+.block .menu li a {
   display: inline-block;
   font-size: 16px;
   line-height: 1.5em;
@@ -150,7 +142,7 @@ ul.block-menu {
   border-bottom: 3px solid transparent;
 }
 
-.block-menu li a:hover {
+.block .menu li a:hover {
   border-bottom: 3px solid #fff;
 }
 
@@ -183,22 +175,26 @@ ul.menu {
 #header .main.menu li a {
   font-size: 16px;
   color: #dbdbdb;
+  border: none;
 }
 
 #header .main.menu li a:hover {
   background-color: #000;
   color: #fff;
+  border: none;
 }
 
 .main.menu li a {
   color: #424242;
   font-size: 18px;
   font-weight: 400;
+  border: none;
 }
 
 .main.menu li a:hover {
   background-color: #424242;
   color: #00ff8b;
+  border: none;
 }
 
 /* locale menu */
@@ -217,7 +213,7 @@ ul.menu {
 
 .archive.menu li a {
   color: #424242;
-  border-bottom: 5px transparent;
+  border-bottom: 5px solid transparent;
 }
 
 .archive.menu li a:hover {
@@ -225,47 +221,49 @@ ul.menu {
   border-bottom: 5px solid #000;
 }
 
-/* intro */
-
-#intro {
-  display: flex;
-  flex-direction: column;
-  height: 750px;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* content */
 
 #content {
   display: flex;
+  justify-content: space-around;
+}
+
+/* main content */
+
+.main.content {
+  order: 2;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   color: #424242;
   font-size: 18px;
   line-height: 1.8em;
-  justify-content: space-around;
 }
 
-#content .wrap {
-  max-width: 600px;
-  order: 2;
-}
-
-#content h1 {
+.main.content h1 {
   line-height: 2.4em;
 }
 
-#content h2 {
+.main.content h2 {
   text-align: center;
   font-size: 32px;
 }
 
-#content a {
+.main.content a {
   color: #3b9838;
 }
 
-#content a:hover {
+.main.content a:hover {
   border-bottom: 1px dashed #3b9838;
+}
+
+/* features */
+
+#features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* asides */
