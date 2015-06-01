@@ -1,7 +1,6 @@
 {% extends "default.twig" %}
 
-{% block intro %}
-<div id="intro">
+{% block header %}
   <div id="header">
     <header>
       <div class="wrap">
@@ -13,16 +12,13 @@
     </header>
     <div id="header-image"></div>
   </div>
-  <div id="features">
-    <div class="wrap">
-      {% include "events.twig" %}
-      {% include "navbar.twig" %}
-      {% include "archivebar.twig" %}
-    </div>
-  </div>
-</div>
 {% endblock %}
 
 {% block content %}
+  <div id="features">
+    {% include "events.twig" %}
+    {% include "navbar.twig" %}
+    {% include "archivebar.twig" %}
+  </div>
   {{ content|raw }}
 {% endblock %}

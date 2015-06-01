@@ -13,21 +13,24 @@
     <meta name="apple-touch-fullscreen" content="yes">
   </head>
   <body>
-    {% block intro %}
-    <div id="header">
-      <header>
-        <div class="wrap">
-          <nav>
-            <div id="logo"><a href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a></div>
-            {% block header %}{% endblock %}
-          </nav>
-        </div>
-      </header>
-    </div>
+    {% block header %}
+      <div id="header">
+        <header>
+          <div class="wrap">
+            <nav>
+              <div id="logo"><a href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a></div>
+              {% include "navbar.twig" %}
+              {% include "archivebutton.twig" %}
+            </nav>
+          </div>
+        </header>
+      </div>
     {% endblock %}
     <div id="content">
-      <div class="wrap">
-        {% block content %}{% endblock %}
+      <div class="main content wrap">
+        {% block content %}
+          {{ content|raw }}
+        {% endblock %}
       </div>
       {% block asides %}
         <aside class="left">
