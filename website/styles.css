@@ -280,12 +280,12 @@ aside.right {
   order: 3;
 }
 
-.aside.title {
+.aside .title {
   margin-top: 0.7em;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.8em;
 }
 
-.aside.banner {
+.aside .banner {
 }
