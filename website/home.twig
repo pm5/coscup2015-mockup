@@ -3,11 +3,12 @@
 {% block header %}
 <header id="header">
   <div class="wrap">
-    <div id="logo"><a href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a></div>
+    <a id="logo" href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a>
     {% include "locale.twig" %}
   </div>
 </header>
 <div id="header-image"></div>
+<div id="mobile-header-image"><img src="{{barUrl}}/images/mobile-header.jpg"/></div>
 {% endblock %}
 
 {% block content %}

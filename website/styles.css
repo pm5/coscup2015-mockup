@@ -46,9 +46,26 @@ a {
 #header-image {
   display: flex;
   width: 100%;
-  height: 267px;
   justify-content: center;
-  background: url("images/header.jpg") center no-repeat;
+}
+
+@media screen and (min-width: 600px) {
+  #header-image {
+    height: 267px;
+    background: url("images/header.jpg") center no-repeat;
+  }
+  #mobile-header-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #header-image {
+    display: none;
+  }
+  #mobile-header-image img {
+    width: 100%;
+  }
 }
 
 #header-image:after {
@@ -66,8 +83,14 @@ a {
 }
 
 #logo {
+  display: flex;
+  align-items: center;
   width: 90px;
-  height: 33px;
+  height: 100%;
+}
+
+#logo:hover {
+  background: #151515;
 }
 
 /* footer */
