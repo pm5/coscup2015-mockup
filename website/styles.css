@@ -29,19 +29,18 @@ a {
 /* header */
 
 #header {
-  width: 100%;
   display: flex;
-  justify-content: center;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-#header header {
   width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
+  flex-wrap: nowrap;
   justify-content: center;
   background: #424242;
+}
+
+#header .wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #header-image {

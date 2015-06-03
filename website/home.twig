@@ -1,17 +1,13 @@
 {% extends "default.twig" %}
 
 {% block header %}
-  <div id="header">
-    <header>
-      <div class="wrap">
-        <nav>
-          <div id="logo"><a href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a></div>
-          {% include "locale.twig" %}
-        </nav>
-      </div>
-    </header>
-    <div id="header-image"></div>
+<header id="header">
+  <div class="wrap">
+    <div id="logo"><a href="{{ baseUrl }}/"><img src="{{ baseUrl }}/images/logo.png"/></a></div>
+    {% include "locale.twig" %}
   </div>
+</header>
+<div id="header-image"></div>
 {% endblock %}
 
 {% block content %}
