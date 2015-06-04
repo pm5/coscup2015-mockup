@@ -105,31 +105,10 @@ a {
 
 #events {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#events .row {
-  display: flex;
+  flex-flow: row wrap;
 }
 
 /* block */
-
-.block {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 2.3em 4em;
-  width: 50%;
-}
-
-.block:hover {
-  background: #ababab;
-}
-
-.block:hover .title,
-.block:hover .content {
-  color: #000;
-}
 
 .block .title {
   font-size: 24px;
@@ -144,18 +123,46 @@ a {
   color: #424242;
 }
 
-.block ul.menu {
+/* feature block */
+
+@media screen and (min-width: 600px) {
+  .feature.block {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2.3em 4em;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .feature.block {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0.8em 1.5em;
+  }
+}
+
+.feature.block:hover {
+  background: #ababab;
+}
+
+.feature.block:hover .title,
+.feature.block:hover .content {
+  color: #000;
+}
+
+.feature.block ul.menu {
   display: inline-block;
   padding: 0;
   margin: 0;
 }
 
-.block .menu li {
+.feature.block .menu li {
   list-style: none;
   display: inline;
 }
 
-.block .menu li a {
+.feature.block .menu li a {
   display: inline-block;
   font-size: 16px;
   line-height: 1.5em;
@@ -164,7 +171,7 @@ a {
   border-bottom: 3px solid transparent;
 }
 
-.block .menu li a:hover {
+.feature.block .menu li a:hover {
   border-bottom: 3px solid #fff;
 }
 
